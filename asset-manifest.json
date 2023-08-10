@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/StrayToStay/static/css/main.21a57ab5.css",
+    "main.js": "/StrayToStay/static/js/main.f2fd57ad.js",
+    "static/media/d1.jpg": "/StrayToStay/static/media/d1.19cdf54abca94ec1b8ab.jpg",
+    "static/media/d5.jpg": "/StrayToStay/static/media/d5.0788464c2a54b8dc0630.jpg",
+    "static/media/d2.jpg": "/StrayToStay/static/media/d2.d66dba55989b83284f26.jpg",
+    "static/media/dog.mp4": "/StrayToStay/static/media/dog.5aad918451ae0f46dcad.mp4",
+    "static/media/d6.jpg": "/StrayToStay/static/media/d6.51fa3b0f106aecc6b800.jpg",
+    "static/media/d4.jpg": "/StrayToStay/static/media/d4.425eb2ced8df02ed2121.jpg",
+    "static/media/d3.jpg": "/StrayToStay/static/media/d3.b97059eb837d00369ca8.jpg",
+    "static/media/service-background.jpg": "/StrayToStay/static/media/service-background.648aaca90cbf2a1b359a.jpg",
+    "static/media/services-1.png": "/StrayToStay/static/media/services-1.8fd92a136f1f977b8235.png",
+    "static/media/services-2.png": "/StrayToStay/static/media/services-2.1d3cb3ef77499e665856.png",
+    "static/media/services-3.png": "/StrayToStay/static/media/services-3.73feb77eda1fbb273f34.png",
+    "static/media/wwr.avif": "/StrayToStay/static/media/wwr.38f6562c43de1f7c806a.avif",
+    "index.html": "/StrayToStay/index.html",
+    "main.21a57ab5.css.map": "/StrayToStay/static/css/main.21a57ab5.css.map",
+    "main.f2fd57ad.js.map": "/StrayToStay/static/js/main.f2fd57ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21a57ab5.css",
+    "static/js/main.f2fd57ad.js"
+  ]
+}
