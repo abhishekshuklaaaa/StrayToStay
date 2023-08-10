@@ -1,0 +1,13 @@
+.btn-1{
+    color: white;
+}
+.btn-1:hover{
+    background-color: transparent;
+    border: 2px solid #d97500;
+}
+.btn-2{
+    border: 2px solid #d97500;
+}
+.btn-2:hover{
+    background-color:#d97500;
+}
