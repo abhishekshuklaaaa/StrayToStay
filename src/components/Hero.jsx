@@ -22,7 +22,7 @@ const Hero = () => {
         >
           <div>
             <input
-              className='bg-transparent w-[300px] sm:w-[400px] font-[Poppins] focus:outline-none
+              className='bg-transparent w-[250px] sm:w-[400px] font-[Poppins] focus:outline-none
                   '
               type='text'
               placeholder='Find Your Paw-some Companion'
@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
           <div>
             <button>
-              <AiOutlineSearch size={20} className='icon' style={{color: '#ffffff'}}  />
+              <AiOutlineSearch size={10} className='icon' style={{color: '#ffffff'}}  />
             </button>
           </div>
         </form>
