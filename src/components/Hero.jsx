@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineSearch } from 'react-icons/ai';
+import { FaHeart, FaPaw } from 'react-icons/fa'; // Import the heart icon from the react-icons library
 import beachVid from '../assets/dog.mp4';
 
 const Hero = () => {
@@ -20,17 +20,19 @@ const Hero = () => {
           className='flex justify-between items-center max-w-[700px] mx-auto w-full border p-1
           rounded-md text-black bg-gray-100/90'
         >
-          <div>
+          <div className='flex-grow relative'>
+            {/* Add the heart icon as a background */}
+            <FaHeart className='absolute left-3 top-1/2 transform -translate-y-1/2' size={20} style={{ color: '#000000' }} />
             <input
-              className='bg-transparent w-[250px] sm:w-[400px] font-[Poppins] focus:outline-none
-                  '
+              className='bg-transparent w-full sm:w-[400px] font-[Poppins] focus:outline-none pl-10' // Increased left padding
               type='text'
-              placeholder='Find Your Paw-some Companion'
+              placeholder='Find Your Paw-some Companion' // Placeholder text with heart emoji
             />
           </div>
           <div>
-            <button>
-              <AiOutlineSearch size={10} className='icon' style={{color: '#ffffff'}}  />
+            {/* Replace with a heart icon */}
+            <button className='bg-gray-500 p-2 rounded-md'>
+              <FaPaw size={20} className='icon' style={{ color: '#ffffff' }} />
             </button>
           </div>
         </form>
