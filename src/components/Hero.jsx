@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaHeart, FaPaw } from 'react-icons/fa'; // Import the heart icon from the react-icons library
+import { FaPaw } from 'react-icons/fa';
 import beachVid from '../assets/dog.mp4';
 
-const Hero = () => {
+const Hero = ({ sticky, nav }) => { // Pass sticky and nav as props
   return (
-    <div className='w-full h-screen relative'>
+    <div className={`w-full h-screen relative ${sticky ? 'sticky' : ''} ${nav ? 'hidden' : ''}`}>
       <video
         className='w-full h-full object-cover'
         src={beachVid}
@@ -17,22 +17,20 @@ const Hero = () => {
         <h1>Rescue, Rehabilitate, Rehome</h1>
         <h2 className='py-4'> Changing Lives Fur-ever!</h2>
         <form
-          className='flex justify-between items-center max-w-[700px] mx-auto w-full border p-1
-          rounded-md text-black bg-gray-100/90'
+          className={`flex justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-md text-black bg-gray-100/90 ${sticky ? 'sticky' : ''} ${nav ? 'hidden' : ''}`}
         >
           <div className='flex-grow relative'>
-            {/* Add the heart icon as a background */}
-            <FaHeart className='absolute left-3 top-1/2 transform -translate-y-1/2' size={20} style={{ color: '#000000' }} />
             <input
-              className='bg-transparent w-full sm:w-[400px] font-[Poppins] focus:outline-none pl-10' // Increased left padding
+              className='bg-transparent w-full sm:w-[400px] font-[Poppins] text-sm focus:outline-none pl-3'
               type='text'
-              placeholder='Find Your Paw-some Companion' // Placeholder text with heart emoji
+              style={{ minWidth: '220px' }}
+              placeholder='Find Your Paw-some Companion'
             />
           </div>
           <div>
-            {/* Replace with a heart icon */}
-            <button className='bg-gray-500 p-2 rounded-md'>
-              <FaPaw size={20} className='icon' style={{ color: '#ffffff' }} />
+            <button className='bg-gray-500 p-2 rounded-md relative'>
+              <div className='absolute inset-0 bg-white rounded-md opacity-20'></div>
+              <FaPaw size={16} className='icon' style={{ color: '#ffffff' }} />
             </button>
           </div>
         </form>
