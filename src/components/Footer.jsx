@@ -22,21 +22,24 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex justify-between'>
-  <ul className='lg:flex'>
-    <li>About Us</li>
-    <li>Partnerships</li>
-    <li>Volunteer</li>
-    <li>News & Events</li>
-    <li>Support Us</li>
-  </ul>
-  <ul className='text-right lg:flex'>
-    <li>Home</li>
-    <li>Adopt</li>
-    <li>Donate</li>
-    <li>Volunteer</li>
-    <li>Contact</li>
-  </ul>
-</div>
+          <ul className='lg:flex'>
+            <li>About Us</li>
+            <li>Partnerships</li>
+            <li>Volunteer</li>
+            <li>News & Events</li>
+            <li>Support Us</li>
+          </ul>
+          <ul className='text-right lg:flex'>
+            <li>Home</li>
+            <li>Adopt</li>
+            <li>Donate</li>
+            <li>Volunteer</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div className='text-center mt-6'>
+          <p className='text-gray-500'>&copy; StraytoStay 2023. All rights reserved.</p>
+        </div>
       </div>
     </div>
   );
