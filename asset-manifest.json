@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/StrayToStay/static/css/main.c88bec2e.css",
-    "main.js": "/StrayToStay/static/js/main.acf232a9.js",
+    "main.css": "/StrayToStay/static/css/main.fc53cad5.css",
+    "main.js": "/StrayToStay/static/js/main.45d9d9f8.js",
     "static/media/d1.jpg": "/StrayToStay/static/media/d1.19cdf54abca94ec1b8ab.jpg",
     "static/media/d5.jpg": "/StrayToStay/static/media/d5.0788464c2a54b8dc0630.jpg",
     "static/media/d2.jpg": "/StrayToStay/static/media/d2.d66dba55989b83284f26.jpg",
@@ -15,11 +15,11 @@
     "static/media/services-3.png": "/StrayToStay/static/media/services-3.73feb77eda1fbb273f34.png",
     "static/media/wwr.avif": "/StrayToStay/static/media/wwr.38f6562c43de1f7c806a.avif",
     "index.html": "/StrayToStay/index.html",
-    "main.c88bec2e.css.map": "/StrayToStay/static/css/main.c88bec2e.css.map",
-    "main.acf232a9.js.map": "/StrayToStay/static/js/main.acf232a9.js.map"
+    "main.fc53cad5.css.map": "/StrayToStay/static/css/main.fc53cad5.css.map",
+    "main.45d9d9f8.js.map": "/StrayToStay/static/js/main.45d9d9f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c88bec2e.css",
-    "static/js/main.acf232a9.js"
+    "static/css/main.fc53cad5.css",
+    "static/js/main.45d9d9f8.js"
   ]
 }
