@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   animation: slideDown 0.5s;
-  background-color: white;
+  background-color: black; /* Change background color to black */
   z-index: 1000;
   /* Add more styles here if needed */
 }
@@ -18,9 +18,11 @@
   margin-left: 10px; /* Adjust the margin as needed */
   /* Add more styles here if needed */
 }
+
 .playing {
   color: green; /* Apply a different color when music is playing */
 }
+
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
@@ -41,4 +43,11 @@
   to {
     transform: translateY(-100%);
   }
+}
+
+.website-name {
+  color: white; /* Change text color to black */
+}
+.md\\:flex.text-black li {
+  color: white;
 }
